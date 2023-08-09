@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import NavTabs from './components/NavTabs';
-import Home from './pages/Portfolio';
+import Portfolio from './pages/Portfolio';
 import About from './pages/About';
-import Blog from './pages/Resume';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function App() {
