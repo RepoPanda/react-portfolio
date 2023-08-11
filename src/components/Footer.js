@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <h2>Welcome to my Footer.</h2>
+      <h2>Welcome to Footer WORLD.</h2>
     </footer>
   );
 }
