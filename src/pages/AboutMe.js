@@ -1,3 +1,3 @@
 export default function AboutMe() {
-    return 'About Me Page';
+    return 'About Me'
 }

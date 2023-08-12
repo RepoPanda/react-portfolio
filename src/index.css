@@ -64,3 +64,14 @@ nav a {
   font-family: 'lilita one', cursive;
   color: var(--lighter-dark);
 }
+
+/* footer selectors ------------------------------------- */
+
+footer{
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
