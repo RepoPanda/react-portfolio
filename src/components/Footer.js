@@ -1,5 +1,5 @@
 import React from "react";
-import github from "../images/github-mark.png";
+import github from "../images/github-mark-white.png";
 import linkdin from "../images/In-Blue-128.png";
 
 
