@@ -98,6 +98,18 @@ header h1 {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* nav selectors ------------------------------------- */
 nav ul {
   display: flex;
@@ -200,7 +212,6 @@ nav a {
 
 .spintheglobe{
   background-image: url(../public/Spin\ the\ globe.png);
-  border-radius: 5%;
   text-decoration: none;
 }
 
@@ -228,13 +239,6 @@ nav a {
   background-image: url(../public/Surf.png);
   text-decoration: none;
 }
-
-
-
-
-
-
-
 
 /* footer selectors ------------------------------------- */
 
