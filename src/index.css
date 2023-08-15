@@ -18,8 +18,8 @@ body {
   background-color: var(--primary);
 }
 
-/* card selectors ------------------------------------- */
-.card-container {
+/* acard/about me selectors ------------------------------------- */
+.acard-container {
   color: var(--lighter-dark);
   -webkit-text-stroke: #00004b 0.4px;
   display: flex;
@@ -37,10 +37,9 @@ body {
   background-color: var(--primary);
   position: absolute;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-
 }
 
-.card-container h2 {
+.acard-container h2 {
   font-size: 1.6rem;
   margin: 0;
   padding: 0;
@@ -49,7 +48,7 @@ body {
   -webkit-text-stroke: 0.1px var(--lighter-dark); 
 }
 
-.card-container img {
+.acard-container img {
   border-radius: 5%;
   border: 5px solid;
   border-color: var(--dark);
@@ -78,6 +77,26 @@ header h1 {
   -webkit-text-stroke: 0.1px var(--lighter-dark);
 
 }
+/* ccard/portfolio selectors ------------------------------------- */
+.ccard-container{
+  color: var(--lighter-dark);
+  -webkit-text-stroke: #00004b 0.4px;
+  /* display: flex; */
+  /* justify-content: center; */
+  left: 1%;
+  right:1%;
+  top: 15%;
+  bottom:15%;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border: 5px solid;
+  border-color: var(--dark);
+  border-radius: 5%;
+  background-color: var(--primary);
+  position: absolute;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
 
 /* nav selectors ------------------------------------- */
 nav ul {
@@ -102,6 +121,120 @@ nav a {
   font-family: 'lilita one', cursive;
   color: var(--lighter-dark);
 }
+
+/* pcard/portfolio selectors ------------------------------------- */
+.pcard-container{
+  color: var(--lighter-dark);
+  -webkit-text-stroke: #00004b 0.4px;
+  /* display: flex; */
+  /* justify-content: center; */
+  left: 1%;
+  right:1%;
+  top: 15%;
+  bottom:15%;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border: 5px solid;
+  border-color: var(--dark);
+  border-radius: 5%;
+  background-color: var(--primary);
+  position: absolute;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pcard-container h2 {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  color: var(--light-dark);
+  font-family: 'Permanent Marker', cursive;
+  -webkit-text-stroke: 0.1px var(--lighter-dark); 
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pcard-container article {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: auto;
+}
+
+#projects h3{
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  color: var(--light-dark);
+  font-family: 'Lilita One', cursive;
+  color: var(--lighter-dark);
+  background-color: var(--dark);
+
+}
+
+#projects a {
+  background-size: cover;
+  background-position: center;
+  flex: 1 1 30%;
+  height: 100px;
+  width: 150px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+#projects a:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.spintheglobe{
+  background-image: url(../public/Spin\ the\ globe.png);
+  border-radius: 5%;
+  text-decoration: none;
+}
+
+.leftovers{
+  background-image: url(../public/Leftovers\ SS.png);
+  text-decoration: none;
+}
+
+.garagio{
+  background-image: url(../public/garagio.png);
+  text-decoration: none;
+}
+
+.pastel-puzzle{
+  background-image: url(../public/Pastel\ Puzzles.png);
+  text-decoration: none;
+}
+
+.run-buddy{
+  background-image: url(../public/Run.png);
+  text-decoration: none;
+}
+
+.surf{
+  background-image: url(../public/Surf.png);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
 
 /* footer selectors ------------------------------------- */
 

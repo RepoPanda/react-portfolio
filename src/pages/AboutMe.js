@@ -3,7 +3,7 @@ import myHeadShot from "../images/Headshot.jpeg";
 
 export default function AboutMe() {
     return (
-      <div class="card-container">
+      <div class="acard-container">
         <section id="about-me">
           <div class="headers">
             <h2>About Me</h2>
