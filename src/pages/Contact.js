@@ -1,7 +1,9 @@
 import React from "react";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import helpers from "../utils/helpers";
+import Button from 'react-bootstrap/Button';
+
+import { validateEmail } from "../utils/helpers";
 
 
 
@@ -14,31 +16,42 @@ export default function Contact() {
           </div>
 
           <div class="form-group">
-            <InputGroup size="sm" className="mb-3">
-              <InputGroup.Text id="inputGroup-sizing-sm">Small</InputGroup.Text>
-              <Form.Control
-                aria-label="Small"
-                aria-describedby="inputGroup-sizing-sm"
-              />
-            </InputGroup>
-            <br />
             <InputGroup className="mb-3">
               <InputGroup.Text id="inputGroup-sizing-default">
-                Default
+                Name
               </InputGroup.Text>
               <Form.Control
                 aria-label="Default"
                 aria-describedby="inputGroup-sizing-default"
               />
+              <Form.Text id="passwordHelpBlock" muted>
+                Your name can be 0-30 characters long, 
+                and must not contain any special characters.
+              </Form.Text>
             </InputGroup>
             <br />
-            <InputGroup size="lg">
-              <InputGroup.Text id="inputGroup-sizing-lg">Large</InputGroup.Text>
+            <InputGroup className="mb-3">
+              <InputGroup.Text id="inputGroup-sizing-default">
+                E-Mail
+              </InputGroup.Text>
               <Form.Control
-                aria-label="Large"
-                aria-describedby="inputGroup-sizing-sm"
+                aria-label="Default"
+                aria-describedby="inputGroup-sizing-default"
               />
+              <Form.Text id="passwordHelpBlock" muted>
+                Must be a valid email address.
+              </Form.Text>
             </InputGroup>
+            <br />
+            <InputGroup>
+              <InputGroup.Text>Message</InputGroup.Text>
+              <Form.Control as="textarea" aria-label="With textarea" />
+              <Form.Text id="passwordHelpBlock" muted>
+                Please provide a message.
+              </Form.Text>
+            </InputGroup>
+            <br />
+            <Button as="input" type="submit" value="Submit" />{" "}
           </div>
         </div>
       </>
