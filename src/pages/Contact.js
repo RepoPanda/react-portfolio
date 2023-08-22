@@ -50,12 +50,12 @@ export default function Contact() {
 
     return (
       <>
-        <div class="ccard-container">
-          <div class="headers">
+        <div className="ccard-container">
+          <div className="headers">
             <h2>Contact Me</h2>
           </div>
 
-          <form class="form-group" id="contact-form" onSubmit={handleSubmit}>
+          <form className="form-group" id="contact-form" onSubmit={handleSubmit}>
             <InputGroup className="mb-3">
               <InputGroup.Text id="inputGroup-sizing-default">
                 Name

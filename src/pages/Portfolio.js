@@ -2,15 +2,15 @@ import React from 'react';
 
 export default function Portfolio() {
     return (
-      <div class="pcard-container">
+      <div className="pcard-container">
         <section id="portfolio">
-          <div class="headers">
+          <div className="headers">
             <h2>Portfolio</h2>
           </div>
 
           <article id="projects">
             <a
-              class="spintheglobe"
+              className="spintheglobe"
               href="https://repopanda.github.io/spin-the-globe/"
             >
               <div>
@@ -18,7 +18,7 @@ export default function Portfolio() {
               </div>
             </a>
 
-            <a class="leftovers" 
+            <a className="leftovers" 
             href="https://leftovers.herokuapp.com/">
               <div>
                 <h3>Leftovers</h3>
@@ -26,7 +26,7 @@ export default function Portfolio() {
             </a>
 
             <a
-              class="garagio"
+              className="garagio"
               href="https://garagio-16dff4078a93.herokuapp.com/"
             >
               <div>
@@ -34,21 +34,21 @@ export default function Portfolio() {
               </div>
             </a>
 
-            <a class="pastel-puzzle" 
+            <a className="pastel-puzzle" 
             href="#">
               <div>
                 <h3>Pastel Puzzle</h3>
               </div>
             </a>
 
-            <a class="run-buddy" 
+            <a className="run-buddy" 
             href="#">
               <div>
                 <h3>Run Buddy</h3>
               </div>
             </a>
 
-            <a class="surf" 
+            <a className="surf" 
             href="#">
               <div>
                 <h3>Surf</h3>

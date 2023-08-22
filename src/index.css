@@ -258,3 +258,55 @@ footer{
 footer a {
  padding: 0.5rem;
 }
+
+
+/* media queries ------------------------------------- */
+
+@media only screen and (max-width: 1300px) {
+  nav ul li {
+    margin: 0 0.5rem;
+  }
+  nav a {
+    font-size: 1rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .acard-container {
+    top: 10%;
+    bottom: 10%;
+  }
+  .pcard-container {
+    top: 10%;
+    bottom: 10%;
+  }
+  .ccard-container {
+    top: 10%;
+    bottom: 10%;
+  }
+
+}
+@media only screen and (max-width: 900px) {
+  nav ul li {
+    margin: 0 0.5rem;
+  }
+  nav a {
+    font-size: 1rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .acard-container {
+    top: 10%;
+    bottom: 10%;
+  }
+  .pcard-container {
+    top: 10%;
+    bottom: 10%;
+  }
+  .ccard-container {
+    top: 10%;
+    bottom: 10%;
+  }
+  
+}

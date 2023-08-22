@@ -3,9 +3,9 @@ import myHeadShot from "../images/Headshot.jpeg";
 
 export default function AboutMe() {
     return (
-      <div class="acard-container">
+      <div className="acard-container">
         <section id="about-me">
-          <div class="headers">
+          <div className="headers">
             <h2>About Me</h2>
           </div>
           <img src={myHeadShot} alt="headshot" height={150} width={150} />
