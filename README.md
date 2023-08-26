@@ -16,15 +16,19 @@ If your README is long, add a table of contents to make it easy for users to fin
   - [Badges](#badges)
   - [Features](#features)
     - [Please Visit My GitHub Repo Link](#please-visit-my-github-repo-link)
-    - [Please Visit My Deployed GitHub Pages link\*\*\*\*\*\*](#please-visit-my-deployed-github-pages-link)
+    - [Please Visit My Deployed GitHub Pages link](#please-visit-my-deployed-github-pages-link)
 
 ## Installation
 
-You can install my application by cloning the repository and running `npm install` to install the dependencies. You can then run `npm start` to start the application. You can also view the deployed application [here](Pending).*******
+You can install my application by cloning the repository and running `npm install` to install the dependencies. You can then run `npm start` to start the application. You can also view the deployed application [here](https://repopanda.github.io/react-portfolio/)
 
 ## Usage
 
 Once the application is running, you can click on the links in the navigation bar to navigate to the different sections of the page. You can also click on the links in the footer to navigate to my GitHub and LinkedIn profiles. You can also click on the links in the portfolio section to navigate to the deployed applications and GitHub repositories for the projects.
+
+Below youll find a screenshot of the deployed applications home page.
+
+![Homepage](https://github.com/RepoPanda/react-portfolio/assets/124810474/f22bc08e-0512-42c6-bb65-f85e92a3cc99)
 
 
 ## Badges
@@ -42,4 +46,4 @@ Once the application is running, you can click on the links in the navigation ba
 
 
 ### Please Visit [My GitHub Repo Link](https://github.com/RepoPanda/react-portfolio)
-### Please Visit [My Deployed GitHub Pages link](Pending)******
+### Please Visit [My Deployed GitHub Pages link](https://repopanda.github.io/react-portfolio/)
